@@ -1,0 +1,126 @@
+html{
+    margin: auto;
+    
+}
+
+body.morning {
+        background-image: url("Morning.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+body.night{
+    background-image: url("night.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+}  
+.head1{
+    text-align: center;
+    font-size: 70px;
+    color :black;
+}
+.oldcircle{
+    position: relative;
+    margin: auto;
+    margin-left: auto;
+    background-color: yellow;
+    height:400px;
+    width: 400px;
+    border-radius: 200px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid slateblue 10px;
+}
+.newcircle{
+    position: relative;
+    margin: auto;
+    margin-left: auto;
+    background-color:gray;
+    height:400px;
+    width: 400px;
+    border-radius: 200px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid whitesmoke 10px;
+  box-shadow: dimgray 10px 10px 10px 10px inset;
+
+}
+#minutehand ,#hourhand , #secondhand{
+ position: absolute;   
+ left: 50%;
+ bottom: 50%;
+}
+#secondhand{
+    background-color:black;
+    height:170px;
+    width: 5px;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#minutehand{
+    background-color:green;
+    height:130px;
+    width: 5px;
+    border-radius: 10px;
+    transform-origin: bottom;
+    
+}
+#hourhand{ background-color: blue;
+    height:70px;
+    width: 5px;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+#dot{
+    position: absolute;
+    background-color:red;
+    height: 25px;
+    width: 25px;
+    border-radius:12px;
+}
+.number {
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+#twelve { top: 20px; left: 50%; }
+#one { top: 40px; left: 70%; }
+#two { top: 105px; left: 90%; }
+#three { top: 50%; left: 93%; }
+#four { bottom: 90px; left: 90%; }
+#five { bottom: 30px; left: 74%; }
+#six { bottom: 0px; left: 50%; }
+#seven { bottom: 20px; left: 25%; }
+#eight { bottom: 90px; left: 10%; }
+#nine { top: 50%; left: 5%; }
+#ten { top: 110px; left: 13%; }
+#eleven { top: 40px; left: 27%; }
+
+#digitalclock,#stopwatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: seashell;
+    margin: auto;
+    margin-top: 100px;
+    border: 10px yellow solid;
+    height: 100px;
+    width: 600px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: tan;
+    
+}
+#dhours,#dseconds ,#dminutes,#dmiliseconds,#stophours ,#stopminutes,#stopseconds{
+    color:crimson;
+    border: 7px solid yellow;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:60px;
+}
+
